@@ -103,8 +103,6 @@ img {
   display: flex;
   flex-grow: 1;
   align-items: center;
-  position: relative;
-  color: #404bbf;
 }
 .nav :after {
   content: "";
@@ -123,7 +121,10 @@ img {
   gap: 40px;
   margin-right: 76px;
 }
-
+.nav-list-item:first-child {
+  position: relative;
+  color: #404bbf;
+}
 .nav-list-item {
   display: flex;
   gap: 40px;
