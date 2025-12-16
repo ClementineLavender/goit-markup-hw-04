@@ -126,12 +126,16 @@ img {
   gap: 40px;
   margin-right: 76px;
 }
-.nav-list-item:first-child .nav-list-link {
+.nav-list-item:first-child {
   position: relative;
   color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.nav-list-item current {
+  position: relative;
+  color: #404bbf;
+}
 .nav-list-item {
   display: flex;
   gap: 40px;
@@ -160,21 +164,14 @@ img {
 .hero-section {
   max-width: 1440px;
   margin: 0 auto;
-
-  /*   background-color: #2e2f42;
-  padding: 188px 0;
-  text-align: center;
-
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url("../images/hero/people-office\ 1.jpg");
+    url(../images/hero/people-office\ 1.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  max-width: 1440px;
-  max-height: 600px;
-  margin: 0 auto; */
+  background-size: cover;
 }
 .hero-container {
   background-color: #2e2f42;
@@ -217,6 +214,7 @@ img {
   border-radius: 4px;
   cursor: pointer;
   margin: 0 auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-btn:hover,
 .hero-btn:focus {
