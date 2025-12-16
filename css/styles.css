@@ -278,7 +278,11 @@ img {
   color: #434455;
 }
 
-/* team-section */
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
 
 .team-title-main {
   font-size: 36px;
