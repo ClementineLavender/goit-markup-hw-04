@@ -480,7 +480,7 @@ img {
   color: #fff;
   margin-bottom: 16px;
 }
-.social-list .social-list-dark {
+.social-list-dark {
   display: flex;
   gap: 16px;
 }
@@ -498,6 +498,7 @@ img {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
+  gap: 16px;
 }
 .social-icon-link.social-icon-link-dark:hover,
 .social-icon-link.social-icon-link-dark:focus {
@@ -517,5 +518,4 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  margin-bottom: 16px;
 }
